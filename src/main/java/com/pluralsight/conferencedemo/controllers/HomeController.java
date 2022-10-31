@@ -9,7 +9,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/api/v1/sessions")
 public class HomeController {
 
     @Value("${app.version}")
