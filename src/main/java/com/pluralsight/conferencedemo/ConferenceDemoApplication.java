@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.pluralsight.conferencedemo.controllers"})
+@ComponentScan(basePackages = {"com.pluralsight.conferencedemo"})
 public class ConferenceDemoApplication {
 
 	public static void main(String[] args) {
