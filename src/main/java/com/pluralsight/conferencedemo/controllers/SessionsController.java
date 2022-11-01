@@ -20,7 +20,7 @@ public class SessionsController {
     }
 
     @GetMapping
-    @RequestMapping("/api/v1/sessions/:{id}")
+    @RequestMapping("{id}")
     public Session get(@PathVariable Long id){
         return sessionRepository.getOne(id);
     }
